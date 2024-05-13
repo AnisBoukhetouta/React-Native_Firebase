@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "142718256948",
+    "firebase_url": "https://android-de92e-default-rtdb.firebaseio.com",
+    "project_id": "android-de92e",
+    "storage_bucket": "android-de92e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142718256948:android:7d8f66d1d2bc9c12e44761",
+        "android_client_info": {
+          "package_name": "com.smokelab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142718256948-dltsi5vdennggstqpm3i320k9rdcv4r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smokelab",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "142718256948-kuvebrt6f9knmkj9cpjs36tcpcuggjbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqY1QQ91_RFtl4U740fAm3sFgkQ9MsqS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142718256948-kuvebrt6f9knmkj9cpjs36tcpcuggjbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
