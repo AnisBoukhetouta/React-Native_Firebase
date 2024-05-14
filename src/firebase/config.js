@@ -1,15 +1,17 @@
 // import * as firebase from 'firebase';
-import * as firebase from 'firebase';
-import '@firebase/auth';
-import '@firebase/firestore';
+import * as firebase from "firebase";
+import "@firebase/auth";
+import "@firebase/firestore";
 
-import {API_KEY,
-AUTH_DOMAIN,
-DATABASE_URL,
-PROJECT_ID,
-STORAGE_BUCKET,
-MESSAGING_SENDER_ID,
-APP_ID} from '@env';
+import {
+  API_KEY,
+  AUTH_DOMAIN,
+  DATABASE_URL,
+  PROJECT_ID,
+  STORAGE_BUCKET,
+  MESSAGING_SENDER_ID,
+  APP_ID,
+} from "@env";
 
 const firebaseConfig = {
   apiKey: API_KEY,
@@ -22,7 +24,7 @@ const firebaseConfig = {
 };
 
 if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
 }
 
 export { firebase };
